@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 1px dotted red;
+}
+
+#container {
+    width: 970px;
+    background-color: lightgray;
+    padding: 4%;
+}
+
+#profile-pic, #blurb{
+    width: 47.5%;
+    height: 300px;
+    display: inline-block;
+}
+
+#profile-pic {
+    background-color: orange;
+}
+#blurb {
+    background-color: yellow;
+    margin-left: 4%;
+}
+#main-content {
+    height: 300px;
+    background-color: orange;
+    margin: 4% 0%;
+    padding: 4%;
+}
+footer, .purple {
+    height: 75px; 
+}
+.purple {
+    background-color: purple;
+    width: 50% 
+}
+footer {
+    background-color: blue;
+}
+.purple:last-child {
+    margin-top: 4%;
+}
